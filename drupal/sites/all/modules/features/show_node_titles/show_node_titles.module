@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Show Node Titles feature.
+ */
+
+include_once 'show_node_titles.features.inc';
