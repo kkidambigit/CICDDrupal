@@ -10,7 +10,7 @@ BUILD_DIR=drupal
 #APP_PATH=""
 
 # Set DSN.
-DB_NAME="cipoc_drupal7"
+DB_NAME="cipoc_drupalkiran"
 DB_USERNAME="root"
 DB_PASSWORD="admin"
 DB_HOST="127.0.0.1"
