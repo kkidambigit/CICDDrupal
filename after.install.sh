@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy csv files.
-cd drupal/
+cd drupal/sites/all/
 
 #Enable modules or set drush commands
 drush en custom_changes -y
