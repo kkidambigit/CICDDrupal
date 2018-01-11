@@ -1,5 +1,5 @@
 name = custom_changes
-description = test.
+description = testing custom changes.
 package = Custom
 core = 7.x
 
