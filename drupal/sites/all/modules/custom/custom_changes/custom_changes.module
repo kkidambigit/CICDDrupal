@@ -1,0 +1,5 @@
+<?php
+function custom_changes_init() {
+  $test = "Hi";
+}
+?>

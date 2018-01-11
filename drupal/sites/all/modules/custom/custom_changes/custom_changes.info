@@ -1,0 +1,5 @@
+name = custom_changes
+description = test.
+package = Custom
+core = 7.x
+

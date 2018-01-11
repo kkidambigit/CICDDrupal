@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Install file for custom_changes module.
+ */
+
+function custom_changes_update_7001() {
+  $modules = array('demo_11jan');
+  $result  = module_enable($modules);
+  features_install_modules(array('demo_11jan'));
+  if (!$result) {
+    watchdog('custom_changes_hook_update_N', 'Error during module enabling', array(), WATCHDOG_ERROR);
+  }
+}
