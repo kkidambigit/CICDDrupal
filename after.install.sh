@@ -4,6 +4,8 @@
 cd drupal/sites/all/
 
 #Enable modules or set drush commands
+
+drush en testing_demo1 -y
 drush en custom_changes -y
 drush en demo_11jan -y
 drush en demo_list_view -y
