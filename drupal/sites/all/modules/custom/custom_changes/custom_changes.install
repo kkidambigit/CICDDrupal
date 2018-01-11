@@ -4,6 +4,9 @@
  * Install file for custom_changes module.
  */
 
+/**
+ * First update to set as release.
+ */
 function custom_changes_update_7001() {
   $modules = array('demo_11jan');
   $result  = module_enable($modules);
