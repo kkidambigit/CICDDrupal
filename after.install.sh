@@ -5,7 +5,7 @@ cd drupal/
 
 #Enable modules or set drush commands
 drush en demo_11jan -y
-
+drush en demo_list_view -y
 drush en show_node_titles -y
 
 # Set the path for ://public stream.
