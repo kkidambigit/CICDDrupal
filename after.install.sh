@@ -5,6 +5,7 @@ cd drupal/
 
 #Enable modules or set drush commands
 drush en show_node_titles -y
+drush en demo_list_view -y
 
 # Set the path for ://public stream.
 #drush vset --yes file_public_path "sites/default/files"
